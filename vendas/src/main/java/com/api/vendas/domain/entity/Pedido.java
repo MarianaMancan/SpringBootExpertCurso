@@ -3,8 +3,14 @@ package com.api.vendas.domain.entity;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class Pedido {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
+
+public class Pedido {
+ 
 	private Integer id;
 	private Cliente cliente;
 	private LocalDate dataPedido;

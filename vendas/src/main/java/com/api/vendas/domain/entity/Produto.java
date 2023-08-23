@@ -2,8 +2,14 @@ package com.api.vendas.domain.entity;
 
 import java.math.BigDecimal;
 
-public class Produto {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
+ 
+public class Produto {
+   
 	private Integer id;
 	private String descricao;
 	private BigDecimal preco;
